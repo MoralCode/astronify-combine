@@ -5,6 +5,7 @@ name = "pypi"
 
 [packages]
 ffmpeg-python = "*"
+pydub = "*"
 
 [dev-packages]
 
