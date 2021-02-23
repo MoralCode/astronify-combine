@@ -5,7 +5,7 @@ from pydub import AudioSegment
 BPM = 60
 
 def bpm_to_time_per_tick(bpm):
-	return (1/bpm)/60
+	return 1/(bpm/60)
  
 
 def calculate_padding_needed_ms(target_sec, actual_sec):
