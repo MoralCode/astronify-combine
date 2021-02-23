@@ -19,7 +19,7 @@ def process_tick(bpm, filename):
 	final_tick = tick + padding
 	final_tick.export(filename, format="wav")
 
-tick_filename='oneclap-megasqueeze'
+tick_filename='oneclap'
 # make a copy of the source tick noise so it doesnt get overwritten
 #TODO: check if a file with the same name exists so as to prevent creating a new one
 newname = tick_filename + "." + str(BPM) + ".wav"
